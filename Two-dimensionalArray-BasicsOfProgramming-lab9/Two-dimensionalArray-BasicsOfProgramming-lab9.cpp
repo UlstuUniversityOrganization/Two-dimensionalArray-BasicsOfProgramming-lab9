@@ -148,7 +148,6 @@ float Polybell(float x, float offset, float height, float k, float a, float b)
 COLORREF Rainbow(float x)
 {
     int point = Bell(x, 0, 1, 5) * 255;
-    //return RGB(Bell(x, 0, 1, 5) * 255, Bell(x, 0.7f, 1, 5) * 255, Bell(x, 1.4f, 1, 5) * 255);
     float a = 0.1666666666f;
     float test = Polybell(x, a + a * 2, 1, 6, a, -a);
 
